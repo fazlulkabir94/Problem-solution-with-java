@@ -16,7 +16,7 @@ public class DogSound {
             for (int j =0; j< 4; j++) {
                 int a = A[i][j] + A[i][j+1] + A[i][j+2];
                 int b = A[i+1][j+1];
-                int c = A[i+2][j] +A[i+2][j+1] + A[i+2][j+2];
+                int c = A[i+2][j] + A[i+2][j+1] + A[i+2][j+2];
 
                 if ((a + b + c)> sum){
                     sum = (a +b +c);
